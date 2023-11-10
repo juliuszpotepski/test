@@ -1,0 +1,53 @@
+#czcionka{
+font-family: Garamond;
+}
+#lewy{
+    float: left;
+height: 500px;
+width: 25%;
+background-color: lavender;
+}
+#lewa{
+    float: left;
+height: 300px;
+width: 25%;
+background-color: lavender;
+}
+#naglowek{
+float: right;
+height: 150px;
+width: 75%;
+background-color: indigo;
+color: white;
+text-align: center;
+font-size: 200%;
+}
+#srodek{
+    float: right;
+height: 650px;
+width: 75%;
+background-color: lavender;
+font-size: 200%;
+text-align: center;
+
+}
+#stopka{
+    clear: both;
+background-color: indigo;
+color: white;
+text-align: right;
+}
+img{
+padding: 5px;
+margin: 10px;
+
+}
+#zdjecie:hover{
+padding: 4px;
+border-top-style: solid;
+border-left-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-color: indigo;
+border-width: 1px;
+}
