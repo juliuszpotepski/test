@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>dziad_ufolud_forum</title>
+    <link href="sttyl.css" rel="stylesheet">
+    <link rel="icon" href="dziad1.png">
+</head>
+<body>
+    <div id="calosc">
+    <div id="naglowek">
+     <a href="index.html"><img src="logo.png" alt="logo" style="width: 70px; margin: 20%;"></a>
+    <input id="searchbar"  type="text" placeholder="  🔎 Wyszukaj wątek">
+    <button type="button" id="logowanie" onclick="document.location='logowanie.html'" >Zaloguj się</button>
+    </div>
+    <div id="lista">
+    <p id="wlista_pierwszy"><img src="domek.png" style="width: 50px; margin-right: 20px;margin-left: 60px;">   Strona główna</p><br>
+    <p id="wlista"><img src="ludzik.png" style="width: 50px; margin-right: 20px;margin-left: 60px;">   Panel użytkownika</p><br>
+    <p id="wlista"><img src="kolo.png" style="width: 50px; margin-right: 20px;margin-left: 60px;">  Ustawienia</p><br>
+    <p id="wlista"><img src="hasztag.png" style="width: 50px;margin-right: 20px;margin-left: 60px;"> Wątki</p><br>
+    
+
+</div>
+<div id="create"><img src="ludzik3.png" style="width: 75px;margin-right: 10px;"><textarea name="wpis" id="wpisy" cols="65" rows="2" oninput="powiekszenie(this)" placeholder="Wyraź swoją opinię"></textarea></br>
+    <div id="przyciski"> <button type="button" id="fota">zdjęcie</button><button type="button" id="glos" >głosówka</button><button type="button" id="emoji">emotikony</button></div>
+<script>
+function powiekszenie(textarea) {
+  textarea.style.height = 'auto';
+  textarea.style.height = textarea.scrollHeight + 'px';
+}
+
+</script>
+
+</div>
+        <div id="glowna"><h1>glownma</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+#full{
+  color: white;
+  background-color: #1d1d1d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.center-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#nkne{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 35px;
+  width: 100%;
+  background-color: #1d1d1d;
+  position: relative;
+  font-size: large;
+}
+#nkne::placeholder{
+color: white;
+font-weight: 700;
+font-size: large;
+}
+#pswd{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 35px;
+  width: 100%;
+  background-color: #1d1d1d;
+  position: relative;
+  font-size: large;
+}
+#pswd::placeholder{
+color: white;
+font-weight: 700;
+font-size: large;
+}
+#email{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 35px;
+  width: 100%;
+  background-color: #1d1d1d;
+  position: relative;
+  font-size: large;
+}
+#email::placeholder{
+color: white;
+font-weight: 700;
+font-size: large;
+}
+#nick{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#pass{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#mail{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#log{
+  margin: 2%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#log{
+  width: 30%;
+  height: 35px;
+  border: solid black 2px;
+  color: white;
+  background-color: #1d1d1d;
+  border-radius: 15px;
+  box-shadow: inset 0 0 0 0 #050142;
+  transition: ease-out 0.4s;
+  font-size: 2rem;
+  outline: none;
+  font-size: large;
+  font-weight: 700;
+  margin: 1%;
+  }
+  #log:hover{
+      box-shadow: inset  0 0 20px 20px #060149;
+  }
+#reg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 355%);
+}
+#reg{
+  width: 50%;
+  height: 35px;
+  border: solid black 2px;
+  color: white;
+  background-color: #1d1d1d;
+  border-radius: 15px;
+  box-shadow: inset 0 0 0 0 #050142;
+  transition: ease-out 0.4s;
+  font-size: 2rem;
+  outline: none;
+  font-size: large;
+  font-weight: 700;
+  margin: 1%;
+  }
+  #reg:hover{
+      box-shadow: inset  0 0 20px 20px #060149;
+  }
